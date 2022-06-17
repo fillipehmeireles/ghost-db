@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "http-server",
+    "ghostdb",
+    "shell"
+]

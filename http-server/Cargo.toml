@@ -1,0 +1,16 @@
+[package]
+name = "http-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ghostdb = {path = "../ghostdb"}
+rocket = { version = "0.5.0-rc.2", features = ["secrets","json"] }
+rocket_contrib = "0.4.11"
+tokio = "1.18.2"
+serde = {version = "1.0.137",  features = ["derive"]}
+serde_json = "1.0.81"
+serde_derive = "1.0.137"
+
